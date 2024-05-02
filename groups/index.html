@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <form>
+        <fieldset id="student-form">
+          <legend>Student Data</legend>
+          <input type="text" id="name" placeholder="First Name" required />
+          <input type="text" id="surname" placeholder="Last Name" required />
+          <button type="submit" id="submit-student">Submit</button>
+        </fieldset>
+        <fieldset id="group-form">
+          <legend>Groups</legend>
+          <input
+            type="number"
+            id="groups-number"
+            placeholder="Number of Groups"
+          />
+          <button type="submit" id="submit-groups">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+    <section id="list">
+      <button type="button" id="formation" style="margin: 20px 4px">
+        Form Groups
+      </button>
+    </section>
+    <script src="/groups/app.js"></script>
+  </body>
+</html>
